@@ -1,0 +1,39 @@
+ TestNG install
+ 
+  Launch the Eclipse IDE and click “Install New Software” in the Help menu.
+  You will see a new installation dialog window, click the “Add” button.
+  Fill out the information as follows:
+   Name: TestNG (depends on the user)
+    Location: https://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/
+    Click Add.
+    
+    Clicking on add redirects us back to the previous window. 
+    However, this time you must see the TestNG option in the available software list. 
+    After that, check “TestNG” and click Next.
+    Click Next to install the TestNG dependencies that eclipse calculates by itself.
+    After that, accept the terms of the license agreement then click Finish.
+    You may or may not encounter a Security warning. Click Install Anyway if you do
+    After that, click “Restart Now” to restart the eclipse and finish the installation setup.
+    
+    
+    By default testNG runs your test cases in alphabatical order
+    
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="Test1" >
+       <classes> 
+          <class name="TestNG" />
+       </classes>
+   </test>
+ </suite>
+ 
+ annotations
+ emthod dependencies
+ dependent groups
+ data driven 
+ parameterizations
+ multithreading execution 
+ 
+ 
+ 

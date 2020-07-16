@@ -1,0 +1,31 @@
+  Download selenium jar file
+  download chrome.exe file
+  
+  make a new folder and copy paste the jar file 
+  then right click on the jar file and click on build path 
+  referenced libraries module will be created automatically
+  then make a new folder and name it as driver
+  copy and paste the chrome driver.exe file in it
+  
+  now make a new java class and start writing the following code
+  public static void main(String[] args) {
+		// to set the path for the browser
+		System.setProperty("webdriver.chrome.driver", "your driver location");
+		
+		// create web driver object
+		WebDriver driver = new ChromeDriver();
+		
+		
+		
+		* Different types of Path
+1. //span[@name=“xyzzy”]
+2. With and operator //span[@type=“a” and @value=“b”]
+3. Wit text   //a[text()=“8 GB”]
+4. With contains. //span[contains(text(),'12 GB')] path
+5. Statrs with //span[starts-with(@id=“gg”)]
+6. Ends with //span[ends-with(@id=“kk”)]
+7. Traversing //div[@class=“abc”]//button[@input=“”hfa]
+8. Traversing parent child sibling //a[@text=“ab”]//parent::td[@class=“yet”]//preceding-sibling::td[@class=“hk”]//input[@name=“hashes”] use this for dynamic web tables 
+9. Decendats gives all the child elements.             //ul[@role=“”sfnd]//li/descendant::div[@class=“dsfa”]
+  
+  
