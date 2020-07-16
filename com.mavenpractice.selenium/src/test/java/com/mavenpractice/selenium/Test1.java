@@ -10,5 +10,10 @@ public class Test1 {
 	public void runTest1() {
 		hp.launchBrowser();
 	}
+	
+	@Test
+	public void runtTest2() {
+		System.out.println("testing");
+	}
 
 }
