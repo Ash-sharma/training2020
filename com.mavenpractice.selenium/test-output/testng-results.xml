@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-15T21:35:03 EDT" name="Default suite" finished-at="2020-07-15T21:35:08 EDT" duration-ms="5330">
+    <groups>
+    </groups>
+    <test started-at="2020-07-15T21:35:03 EDT" name="Default test" finished-at="2020-07-15T21:35:08 EDT" duration-ms="5330">
+      <class name="com.mavenpractice.selenium.Test1">
+        <test-method signature="runTest1()[pri:0, instance:com.mavenpractice.selenium.Test1@40e6dfe1]" started-at="2020-07-15T21:35:03 EDT" name="runTest1" finished-at="2020-07-15T21:35:08 EDT" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest1 -->
+      </class> <!-- com.mavenpractice.selenium.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
