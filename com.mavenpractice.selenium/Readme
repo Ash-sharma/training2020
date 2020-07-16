@@ -4,3 +4,22 @@ GitHub/git - central repository
           - commit (saving my changes in the memory github)
           - push (upload the changes in the repository)
           - Merge
+          
+          GithHub:
+Step 1 : Create GitHub account and SignIn
+Step 2 : Create a repository , copy link
+Step 3 : Start Eclipse
+Step 4 : Go to Perspective - Git Repositories and click on Add Git Repo
+Step 5 : Create a project in Eclipse
+Step 6 : Do a right click on Project - Team - Share - Add to git repo
+Step 7 : Commit and Push the project to the repo
+Step 8 : Commit and Push every change to the repo
+ 
+Maven
+Navigate to Help->Eclipse Marketplace-> Search maven ->Maven Integration for Eclipse ->INSTALL
+Step 1: Navigate to File- new-others-Maven-Maven Project-Click Next
+Step 2: Check the Create a simple project and click Next
+Step 3: Provide Group Id and Artifact Id. Here I am using the default name. Click Finish.
+Step 4: After finish, you will find the project structure is created like below. pom.xml is created which is used to download all dependencies.
+Step 5: Add dependencies for Selenium.
+Step 6: right click on project -> go to Run As -> maven build
